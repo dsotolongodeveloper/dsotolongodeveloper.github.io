@@ -687,38 +687,18 @@ margin-bottom: 35px;
     
 }
 
-#contact-form button:hover
-{
-    animation-duration: 0.9s;
-    animation-name: bt_send;
-    
-    
+#contact-form button:hover i
+{    
+     font-size: 1.8rem;
 }
 
 #contact-form button i
 {
-    font-size: 1.8rem ;
-    text-shadow: 1px 2px 6px #B71C1C;  
+    font-size: 1rem ;
+    text-shadow: 1px 2px 6px #B71C1C;
+	transition: all 0.2s ease 0.1s;
     
 }
-
-@keyframes bt_send 
-{
-    10%
-    {
-       margin-left: -7px;
-       width: 70px;
-        border-radius: 45px;
-        
-    }
-    50%
-    {
-        width: 55px;
-    }
-}
-
-
-
 
 #footer {
     background: url("../resources/img/fondo.jpg");
