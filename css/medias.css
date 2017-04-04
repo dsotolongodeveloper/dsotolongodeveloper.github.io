@@ -1,0 +1,109 @@
+/*mini desktop*/
+@media (min-width: 981px) and (max-width: 1279px)
+{
+   #portfoliolist .portfolio 
+    {
+    width:31%;
+     }  
+}
+
+/*table*/
+
+@media (min-width: 768px) and (max-width: 980px)
+{
+   #portfoliolist .portfolio 
+    {
+    width:45%;
+     }  
+    
+    .spacin-dispositive
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .seccion .title h1 {
+    font-size: 3.8rem;
+   }
+    
+    .seccion .title p 
+    {
+    font-size: 1.3rem;
+   }
+    
+    #contact .title p 
+    {
+        max-width: 50%;
+    }
+    
+    #contact-form 
+    {
+    width: 44%;
+    }
+}
+
+/*Gig mobile*/
+
+@media (min-width: 361px) and (max-width: 767px)
+{
+    .seccion .title 
+    {
+      margin: 25px 10px 0px
+    }  
+    
+    .seccion .title h1 
+    {
+    font-size: 3.6rem;
+    text-align: center;
+    }
+    
+    .seccion .title p 
+    {
+    font-size: 1.6rem;
+    text-align: center;
+    }
+    
+    .seccion .seccion-content 
+    {
+    padding: 25px 35px;
+    }
+    
+    #portfoliolist .portfolio 
+    {
+    width:95%;
+     }
+    
+    #contact .title 
+    {
+    min-height: 168px;
+    margin-top: 43px;
+    }
+    
+    #contact-form {
+    padding: 18px;
+    width: 100%;
+    float: none;
+    margin-top: 15px;
+}
+    
+    .seccion .title .message-contact-status {
+    font-family: Raleway-Medium !important;
+    font-weight: inherit !important;
+    letter-spacing: -2px;
+    color: #424242;
+    font-size: 4.2rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    max-width: 100%;
+    line-height: 40px;
+    text-align: center;
+}
+
+}
+
+/*mobile*/
+
+@media (max-width: 360px)
+{
+     
+}

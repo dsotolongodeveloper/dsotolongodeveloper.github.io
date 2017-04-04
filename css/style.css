@@ -1,0 +1,763 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:url("../resources/img/fondo.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    padding: 30px;
+    text-align: center;
+
+}
+
+#avatar-box
+ {
+     width: 100%;
+ }
+
+#avatar-box span
+{
+    font-family: roboto-light !important;
+    color: #E0E0E0;
+    font-size: 1.6rem;
+}
+#avatar-box span i
+{
+    font-size: 2.9rem;
+    margin: 0px 8px;
+    padding-top: 15px;
+    color: #E0E0E0;
+}
+
+header h5
+{
+    font-weight: inherit !important;
+    font-family: Raleway-Medium;
+    color: #F5F5F5;
+    font-size: 2.5rem;
+    margin: 12px 0px 4px 0px;
+}
+
+header p
+{
+    font-family: Raleway-Medium;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.avatar-cirle
+{
+    border-radius: 85%;
+    border: solid 6px #F5F5F5;
+    box-shadow: 0px 0px 10px #E0E0E0, 0px 0px 15px #EEEEEE;
+}
+
+
+
+.content {
+    position: relative;
+    top: 16rem;
+    padding: 1rem 0 0px;
+    z-index: 100;
+    background-color: #fff;
+}
+
+/* SOCIAL BUTTON */
+
+.social-btns {
+    margin: 30px auto;
+    font-size: 0;
+    text-align: center;
+    position: relative;
+    z-index: 95;
+    height: 60px;
+    width: 100%;
+
+}
+
+.social-btns a {
+    padding: 0px !important;
+    padding: 0px !important;
+
+}
+
+.social-btns .btn,
+.social-btns .btn:before,
+.social-btns .btn .fa {
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    -webkit-transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+    transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-btns .btn:before {
+    top: 10%;
+    left: -110%;
+}
+.social-btns .btn .fa {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+}
+.social-btns .btn.facebook:before {
+    background-color: #3b5998;
+}
+.social-btns .btn.facebook .fa {
+    color: #3b5998;
+}
+.social-btns .btn.twitter:before {
+    background-color: #3cf;
+}
+.social-btns .btn.twitter .fa {
+    color: #3cf;
+}
+.social-btns .btn.google:before {
+    background-color: #dc4a38;
+}
+.social-btns .btn.google .fa {
+    color: #dc4a38;
+}
+.social-btns .btn.dribbble:before {
+    background-color: #f26798;
+}
+.social-btns .btn.dribbble .fa {
+    color: #f26798;
+}
+.social-btns .btn.skype:before {
+    background-color: #00aff0;
+}
+.social-btns .btn.skype .fa {
+    color: #00aff0;
+}
+.social-btns .btn:focus:before,
+.social-btns .btn:hover:before {
+    top: -10%;
+    left: -10%;
+}
+.social-btns .btn:focus .fa,
+.social-btns .btn:hover .fa {
+    color: #fff;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.social-btns .btn {
+    display: inline-block;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 90%;
+    box-shadow: 0 5px 8px -5px rgba(0,0,0,0.1);
+    opacity: 0.99;
+}
+.social-btns .btn:before {
+    content: '';
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.social-btns .btn .fa {
+    font-size: 25px;
+}
+
+/* END SOCIAL BUTTON */
+
+#logoBox
+{
+    background-color: #039BE5;
+    width: 360px;
+    height: 350px;
+    transform: rotate(374deg);
+    position: fixed;
+    top: -318px;
+    left: -124px;
+    z-index: 100000;
+    box-shadow: 2px 5px 6px rgba(158, 158, 158, 0.6);
+    display: none;
+
+}
+
+#logoBox h2
+{
+    font-family: Raleway-Medium;
+    color: #F5F5F5;
+    position: absolute;
+    left: 168px;
+    bottom: 15px;
+    transform: rotate(-14deg);
+    font-size: 17px;
+
+}
+
+#contact-box
+{
+    position: fixed;
+    top: 0px;
+    right: 60px;
+    width: auto;
+    padding: 6px;
+    height: 60px;
+    z-index: 100000;
+}
+
+#contact-box .social-btns {
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+
+}
+
+#contact-box .social-btns .btn {
+    display: inline-block;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 5px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 90%;
+    box-shadow: 0 5px 8px -5px rgba(0,0,0,0.1);
+    opacity: 0.99;
+}
+
+#contact-box .social-btns .btn .fa {
+    font-size: 18px;
+}
+
+.show-logo
+{
+    animation: ease 0.4s;
+    animation-name: showLogo;
+    display: block !important;
+}
+
+.hide-logo
+{
+    animation: ease 0.4s;
+    animation-name: hideLogo;
+}
+
+@keyframes showLogo {
+
+    0%{
+         top: -700px ;
+         opacity: 0;
+     }
+
+    30%
+    {
+        top: -360px ;
+        opacity: 0.5;
+    }
+
+    90%{
+        top: -268px ;
+        opacity: 1;
+    }
+}
+
+@keyframes hideLogo {
+
+    0%{
+        top: -268px ;
+        opacity: 1;
+    }
+
+    30%
+    {
+        top: -360px ;
+        opacity: 0.5;
+    }
+
+    90%{
+        top: -700px ;
+        opacity: 0;
+    }
+}
+
+.scroll-animation-box
+{
+    width: 50px;
+    height: 80px;
+    margin: 150px auto;
+}
+
+.scroll-animation-box .mouse
+{
+   width: 36px;
+   height: 57px;
+   margin: 0 auto;
+   position: relative;
+   border: solid 2px #F5F5F5;
+    border-radius: 60px;
+
+}
+
+.scroll-animation-box .mouse .bolita
+{
+    width: 7px;
+    height: 7px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin-top: 6px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: animate-scroll ;
+}
+
+@keyframes animate-scroll
+{
+   10%
+   {
+       margin-top: 15px;
+       opacity: 0;
+   }
+
+    30%
+    {
+        margin-top: 10px;
+        opacity: 0;
+    }
+
+   90%
+   {
+       margin-top: 24px;
+       opacity: 1;
+   }
+
+   100%
+   {
+       margin-top: 24px;
+       opacity: 1;
+   }
+}
+
+.seccion .title
+{
+    margin-top: 140px;
+    margin-left: 80px;
+}
+
+.seccion .title h1
+{
+   font-family: Raleway-ExtraBold !important;
+   font-weight: inherit !important;
+   letter-spacing: -2px;
+   color: #424242;
+   font-size: 5rem;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+
+}
+
+.seccion .title .message-contact-status
+{
+   font-family: Raleway-Medium !important;
+   font-weight: inherit !important;
+   letter-spacing: -2px;
+   color: #424242;
+   font-size: 4.2rem;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   max-width: 300px; 
+    line-height: 40px;
+
+}
+
+.seccion .title .error
+{
+   color: rgba(233, 30, 99, 0.8) !important; 
+}
+
+.seccion .title p
+{
+    font-family: Raleway-Regular !important;
+    font-weight: inherit !important;
+    letter-spacing: 2px;
+    color: #424242;
+    font-size: 1.6rem;
+}
+
+.seccion .seccion-content
+{
+   padding: 25px 80px;
+}
+
+.tecnology .logo
+{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 13px auto;
+}
+
+.tecnology h3
+{
+    font-weight: 300;
+    font-family: roboto-light;
+    color:#616161 ;
+    text-align: center;
+    letter-spacing: -2px;
+    padding-top: 10px;
+    margin-top: 0px;
+    padding-bottom: 30px;
+}
+
+.tecnology .lineal
+{
+    height: 1px;
+    width: 100%;
+    background-color: rgba(66,66,66 ,0.1);
+    position: relative;
+}
+
+.tecnology .lineal span
+{
+    position: absolute;
+    top: 6px;
+    margin-top: -23px;
+    background-color: white;
+    padding: 7px 4px;
+    font-size: 12px;
+    border-radius: 40px;
+    border: solid 2px #ECEFF1;
+    box-shadow: 0px 0px 3px #BDBDBD;
+}
+
+.tecnology p
+{
+    font-family: Raleway-Regular;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    color: rgba(66,66,66 ,0.7);
+    text-align: left;
+    margin: 45px 0px 5px;
+}
+
+/*PORFOLIO*/
+
+.seccion-content #filters
+{
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.seccion-content #filters a
+{
+    background-color: white;
+    padding: 7px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgba(66,66,66 ,0.9);
+    margin: 25px 6px 10px;
+    line-height: 45px;
+    font-family: roboto-light;
+    letter-spacing: 2px;
+    text-decoration: none !important;
+    position: relative;
+}
+
+.seccion-content #filters a:hover span
+{
+    right: 0%;
+    opacity: 1;
+}
+
+.seccion-content #filters .active
+{
+    background-color: #039BE5;
+    color: white;
+}
+
+.seccion-content #filters a span
+{
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    background-color: #039BE5;
+    left: 0px;
+    right: 100%;
+    opacity: 0;
+    transition: all 0.2s ease 0.1s;
+}
+
+#portfoliolist
+{
+    min-height: 490px;
+}
+
+#portfoliolist .portfolio {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    width:23%;
+    margin:1%;
+    display:none;
+    float:left;
+    overflow:hidden;
+}
+
+.portfolio-wrapper {
+    overflow:hidden;
+    position: relative !important;
+    cursor:pointer;
+    max-width:100%;
+}
+
+.portfolio-wrapper .overlay
+{
+    background-color: rgba(2,2,2 ,0);
+    position: absolute;
+    bottom: 0px;
+    top: 0%;
+    transition: all 0.5s ease 0.2s;
+    z-index: 200;
+    left: 0px;
+    width: 100%;
+}
+
+.portfolio-wrapper .overlay a
+{
+    text-decoration: none !important;
+}
+
+.portfolio-wrapper .overlay i
+{
+    padding: 9px;
+    font-size: 2rem;
+    background-color: #F5F5F5;
+    border-radius: 50px;
+    position: relative;
+    display: block;
+    width: 37px;
+    margin: 110% auto;
+    opacity: 0;
+    transition: all 0.2s ease 0.3s;
+}
+
+.portfolio-wrapper .overlay a p
+{
+    font-family: roboto-light;
+    color: #F5F5F5;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 1.4rem;
+
+}
+
+
+
+.portfolio-wrapper:hover .overlay
+{
+    background-color: rgba(2,2,2 ,0.8);
+}
+
+.portfolio-wrapper:hover .overlay i
+{
+    margin: 23% auto 8px;
+    opacity: 0.9;
+}
+
+.portfolio-wrapper img {
+    max-width:100%;
+    position: relative;
+    top:0;
+    right: 0px;
+    -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:         all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#contact
+{
+    background-color: rgba(239,235,233 ,0.6);
+    padding: 30px 0px 70px 0px;
+}
+
+.moreLink {
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.moreLink:hover {
+   color: red;
+}
+
+
+
+
+#contact-form {
+    box-shadow: 0px 2px 6px rgba(158,158,158 ,1);
+    background-color: #fff;
+    padding: 18px;
+    width: 35%;
+    float: right;
+    margin-top: -264px;
+}
+
+#contact-form h3 {
+    font-family: Raleway-Medium;
+    color: #616161;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+#contact-form p {
+   font-family: roboto-light;
+color: #9E9E9E;
+text-align: center;
+letter-spacing: 0px;
+font-size: 1.3rem;
+margin-top: -10px;
+margin-bottom: 35px;
+    
+}
+
+#contact-form input, #contact-form button , #contact-form textarea
+{
+    display: block;
+    width: 100%;
+    border: none;
+    
+}
+
+#contact-form input,#contact-form textarea
+{
+    border-bottom: solid 1px rgba(0,151,167 ,0.2);
+    transition: all 0.3s ease 0.1s;
+    font-family: roboto-light;
+    
+}
+
+#contact-form input:focus
+{
+    border: none;
+    border-bottom: solid 1px rgba(0,151,167 ,1);
+    color: rgba(0,151,167 ,0.8);
+    
+}
+
+#contact-form .form-group
+{
+    overflow: hidden;
+    
+}
+
+#contact-form textarea
+{
+ 
+}
+
+#contact-form textarea:focus
+{
+    border: none;
+    border-bottom: solid 1px rgba(0,151,167 ,1);
+    color: rgba(0,151,167 ,0.8);
+    
+}
+
+#contact-form button
+{
+    background-color: rgba(233,30,99 ,0.8);
+    border: none;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 5px #9E9E9E; -5px -5px 6 black;
+    margin: 50px auto -41px;
+    
+    
+}
+
+#contact .title
+{
+    min-height: 168px;
+    margin-top: 126px;
+    
+    
+}
+
+#contact-form button:hover
+{
+    animation-duration: 0.9s;
+    animation-name: bt_send;
+    
+    
+}
+
+#contact-form button i
+{
+    font-size: 1.8rem ;
+    text-shadow: 1px 2px 6px #B71C1C;  
+    
+}
+
+@keyframes bt_send 
+{
+    10%
+    {
+       margin-left: -7px;
+       width: 70px;
+        border-radius: 45px;
+        
+    }
+    50%
+    {
+        width: 55px;
+    }
+}
+
+
+
+
+#footer {
+    background: url("../resources/img/fondo.jpg");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    padding: 12px 0px;
+}
+
+#footer h5
+{
+    font-weight: inherit !important;
+font-family: Raleway-Medium;
+color: #F5F5F5;
+font-size: 1.8rem;
+    text-align: center;
+    margin: 0px;
+}
+
+.validator-error
+{
+    border-bottom: solid 1px red !important;
+    color: red !important;
+}
+
+#footer p 
+{
+    font-family: Raleway-Medium;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.validator-msj {
+    color: rgba(233, 30, 99, 0.8);
+font-family: roboto-light;
+font-size: 1.1rem;
+letter-spacing: 1px;
+}
+
+

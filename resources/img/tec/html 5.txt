@@ -1,0 +1,7 @@
+HTML5 es un lenguaje markup usado para estructurar y presentar el contenido para la web. Es uno de los aspectos fundamentales para el funcionamiento de los sitios, pero no es el primero. A fines del año pasado, la W3C la recomendó para transformarse en el estándar a ser usado en el desarrollo de proyectos venideros.Con este lenguaje tenemos otras posibilidades para explotar usando menos recursos. Con HTML5, también entra en desuso el formato XHTML, dado que ya no sería necesaria su implementación.
+
+Mientras que HTML nos permite definir la estructura una página web, las hojas de estilo en cascada (Cascading Style Sheets o CSS) son las que nos ofrecen la posibilidad de definir las reglas y estilos de representación en diferentes dispositivos, ya sean pantallas de equipos de escritorio, portátiles, móviles, impresoras u otros dispositivos capaces de mostrar contenidos web.
+
+Javascript es un lenguaje con muchas posibilidades, utilizado para crear pequeños programas que luego son insertados en una página web y en programas más grandes, orientados a objetos mucho más complejos. Con Javascript podemos crear diferentes efectos e interactuar con nuestros usuarios.
+
+SilverStripe es un gestor de contenidos (o CMS: Content Managed System) avanzado de código abierto, especialmente diseñado para que los diseñadores puedan trabajar en colaboración directa con los programadores funcionando independientemente el uno del otro pero relacionados por mecanismos automáticos simplificados.
